@@ -10,7 +10,6 @@ def home():
     files_path = 'file_upload_flask/uploaded_files/'
     list_files = os.listdir(files_path)
     list_excel = []
-    # Проверка и отбор только файлов .xlsx
     for i in list_files:
         if i.endswith('.xlsx'):
             list_excel.append(i)
