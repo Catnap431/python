@@ -47,7 +47,7 @@ def upload():
         uploaded_file = request.files['file']
         # 
         pass_from_client = request.form['pass']
-        admin_password = '88888888'
+        admin_password = '27092008Art'
         if pass_from_client == admin_password:
             # 
             # Сохраняем файл с его же именем uploaded_file.filename
