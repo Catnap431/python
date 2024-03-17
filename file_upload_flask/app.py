@@ -5,7 +5,7 @@ import pandas as pd
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/234')
 def home():
     files_path = 'file_upload_flask/uploaded_files/'
     list_files = os.listdir(files_path)
